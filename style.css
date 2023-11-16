@@ -401,6 +401,9 @@
     display: none;
   }
 
+  #signupPopup{
+    display: none;
+  }
 
   .popup {
     position: fixed;
