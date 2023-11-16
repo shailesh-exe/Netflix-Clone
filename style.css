@@ -397,21 +397,19 @@
     right: 200px;
   }
   
-  #signinPopup{
+  /* #signinPopup{
     display: none;
-  }
+  } */
 
-  #signupPopup{
-    display: none;
-  }
 
   .popup {
     position: fixed;
-    top: 20%;
+    top: 12%;
     left: 35%;
     width: 100%;
     height: 100%;
     z-index: 1;
+    overflow-y: hidden;
 }
 
 form {
@@ -427,7 +425,7 @@ form {
   background-color: #fff;
   color: black;
   width: 30%;
-  height: 60%;
+  height: 76%;
   padding: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 20px;
