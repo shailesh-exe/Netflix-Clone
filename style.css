@@ -334,65 +334,62 @@
     font-weight: 400;
     margin: 2rem 0;
   }
-  
+      
   footer {
     border-top: 8px solid #333;
-    margin: 1rem;
-    padding: 2rem 0;
+    padding: 2rem 1rem;
     color: #757575;
     display: flex;
-    flex-direction: row;
-    /* gap: 20px; */
-    font-size: 15px;
-    font-weight: 500;
-  }
-
-  .footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 1rem 4%;
-    }
-
-  .footer-iconTop a{
-        display: flex;
-        justify-content: flex-end;
-        padding: .8rem;
-        background: white;
-        border-radius: 50%;
-        /* transition: .5s ease; */
-        /* width: 40px; */
-        text-decoration: none;
-        position: relative;
-        right: 20px;
-        bottom: 20px;
-      }
-      
-      .footer-iconTop a i{
-        font-size: 0.8rem;
-        color: red;
-      }
-      
-      .footer-iconTop {
-        width: 100%;
-        color: white;
-        display: flex;
-        justify-content: flex-end;
-      }
-    
-  .footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    /* gap: 20px; */
+    flex-direction: column;
+    gap: 20px;
   }
   
-  .footer > h4 {
+  .footer-iconTop a{
+    display: flex;
+    justify-content: flex-end;
+    padding: .8rem;
+    background: white;
+    border-radius: 50%;
+    text-decoration: none;
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+  }
+      
+  .footer-iconTop a i{
+    font-size: 0.8rem;
+    color: red;
+  }
+      
+  .footer-iconTop {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .footer__row__2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 80px;
+  }
+  
+  .footer__row__1 > h4 {
     font-size: 15px;
     font-weight: 500;
   }
-
+  
+  .footer__row__3 > .dropdown__container {
+    width: fit-content;
+    border: 1px solid #757575;
+    color: #757575;
+  }
+  
+  .footer__row__3 > .dropdown__container > .language__drop__down {
+    color: #757575;
+  }
+  
   .top {
     right: 200px;
   }
@@ -413,7 +410,7 @@
     height: 100%;
     z-index: 1;
     overflow-y: hidden;
-}
+  }
 
 form {
   width: 100%;
